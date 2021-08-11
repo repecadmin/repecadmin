@@ -1,0 +1,39 @@
+.header-1 {
+  background-color: #fbfcff;
+}
+
+.icon-1 {
+  float: left;
+  width: 15%;
+}
+.img-icon {
+  height: 144px;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  width: 70%;
+  margin-top: 50px;
+}
+ul li {
+  display: inline-block;
+  margin: 20px;
+
+}
+ul li:hover {
+  box-shadow: none;
+}
+button {
+  box-shadow: none;
+
+  color: black;
+  width: 130px;
+}
+
+.active,  .btn:hover{
+  border: 1px solid black;
+  box-shadow: none;
+  background-color: #f7f7f1;
+  color: #1c2430;
+}
